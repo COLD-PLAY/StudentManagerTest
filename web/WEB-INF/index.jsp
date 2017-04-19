@@ -14,13 +14,13 @@
   <body>
   <h1 align="center">Welcome to student management system</h1>
   <div align="center" style="font-size: 3em">
-    <a href="/insert.jsp">insert</a>
+    <a href="/WEB-INF/insert.jsp">insert</a>
     <br>
-    <a href="/delete.jsp">delete</a>
+    <a href="/WEB-INF/delete.jsp">delete</a>
     <br>
-    <a href="/search.jsp">search</a>
+    <a href="/WEB-INF/search.jsp">search</a>
     <br>
-    <a href="/update.jsp">update</a>
+    <a href="/WEB-INF/update.jsp">update</a>
     <br>
   </div>
   </body>

@@ -2,19 +2,20 @@
   Created by IntelliJ IDEA.
   User: coldplay
   Date: 17-4-11
-  Time: 下午8:22
+  Time: 下午8:15
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>update student</title>
+    <title>insert student</title>
+    <meta charset="UTF-8">
 </head>
 <body>
-    <h1 align="center">update student</h1>
+    <h1 align="center">insert student</h1>
     <div align="center">
         <form onsubmit="return checkall(this)" action="/StudentManagerSystem/HandleStudent" method="POST">
-            <input type="hidden" name="handler" value="update">
+            <input type="hidden" name="handler" value="insert">
             name: <input type="text" name="name">
             <br>
             sex: <input type="radio" name="sex" value="male">male
@@ -27,7 +28,7 @@
     </div>
 
     <div style="position: absolute;">
-        <a href="/index.jsp">back to index</a>
+        <a href="/WEB-INF/index.jsp">back to index</a>
     </div>
 
     <script type="text/javascript">
